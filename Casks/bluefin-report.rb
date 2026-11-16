@@ -1,9 +1,9 @@
 cask "bluefin-report" do
   arch arm: "arm64", intel: "amd64"
 
-  version "26.11.5"
-  sha256 arm64_linux:  "f6d893d68a5823e4cfca56308f2daf848b647930dd39e667493dfe38c785348d",
-         x86_64_linux: "c32b8a53016d93601da599765c8f97786fa0296b7151998705b9bb9a7f817cac"
+  version "26.11.6"
+  sha256 arm64_linux:  "e4da1f3ee6d5e7e20d2d799acf035d1ee8d2b93529b09e49ca37d489031fe964",
+         x86_64_linux: "b007742572b151b410a4ec15120ff72bcc6e91fc3d501aacacaa1b8e9f9f60d7"
 
   url "https://github.com/projectbluefin/bluefin-report/releases/download/#{version}/bluefin-report_#{version}_linux_#{arch}.tar.gz"
   name "Report a problem"
