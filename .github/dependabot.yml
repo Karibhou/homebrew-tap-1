@@ -4,6 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
+    # Wait three days after a release before proposing it, as the other
+    # projectbluefin repos' Renovate rules do for third-party actions.
+    cooldown:
+      default-days: 3
     groups:
       github-actions:
         patterns:
